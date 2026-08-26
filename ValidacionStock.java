@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class ValidacionStock {
-    public static void main(String[] args) {
-
+    
         String producto;
         int stockActual;
         int STOCKMINIMO = 5;
@@ -15,5 +14,5 @@ public class ValidacionStock {
             System.out.println("El stock del producto " + producto + " esta por debajo del minimo.");
         }
         leer.close();
-    }
+
 }
